@@ -1,6 +1,10 @@
-body {
+body,html {
     margin: 0;
     padding: 0;
+    /* font-family: TT Norms Pro,tt_norms_pro,sans-serif; */
+    font-family: "TT Norms Pro","tt_norms_pro",sans-serif;
+    line-height: 1;
+    scroll-behavior: smooth;
 }
 
 /*________HEADER________*/
@@ -28,6 +32,11 @@ body {
     height: 48px;
     background-color: white;
     color: black;
+    display: flex;
+}
+
+.flex {
+    display: flex;
 }
 
 .justify-content-between {
@@ -36,16 +45,49 @@ body {
 
 .text-uppercase {
     text-transform: uppercase !important;
+    list-style-type: none;
 }
 
 .logo {
-    background-image: url(/assets/img/pinarello_logo.jpg);
-    width: 210px;
-    height: 36px;
+    background-image: url(/assets/img/logo.png);
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
 }
 
 .bg-img {
     background-position: center;
-    background-size: 100%;
+    /* background-size: 100%; */
     background-repeat: no-repeat;
+}
+
+.no_margin_padding {
+    margin: 0;
+    padding: 0;
+}
+
+.center_text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    transition: all 1s cubic-bezier(.19,.91,.36,.99);
+}
+
+.text_possition{
+    padding: 15px 40px;
+    line-height: 17px;
+    /* border: 1px solid black; */
+}
+
+.social{
+    width: 8%;
+    height: 20px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+.no_underline{
+    text-decoration: none;
+    color: black;
 }
