@@ -49,13 +49,16 @@ footer{
     list-style: none;
 }
 
+.footer_item{
+    padding-bottom: 5px;
+}
+
 .footer_item_link{
     text-decoration: none;
     font-size: 14px;
     color: #fff;
     padding: 5px 0;
     padding-right: 35px;
-    line-height: 17px;
 }
 
 .footer_item_icon{
