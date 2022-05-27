@@ -16,7 +16,7 @@ body,html {
 }
 
 .container__header {
-    width: 1423px;
+    width: 1536px;
     height: 100%;
     background-color: bisque;
     margin: auto;
@@ -24,12 +24,12 @@ body,html {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 8px 48px;
+    /* padding: 8px 48px; */
 }
 
 .navbar {
-    width: 1423px;
-    height: 48px;
+    width: 100%;
+    height: 55px;
     background-color: white;
     color: black;
     display: flex;
@@ -52,7 +52,7 @@ body,html {
     background-image: url(/assets/img/logo.png);
     width: 100px;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .bg-img {
@@ -68,7 +68,7 @@ body,html {
 
 .center_text {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 1;
     transition: all 1s cubic-bezier(.19,.91,.36,.99);
@@ -76,15 +76,17 @@ body,html {
 
 .text_possition{
     padding: 15px 40px;
-    line-height: 17px;
+    line-height: 25px;
     /* border: 1px solid black; */
 }
 
 .social{
     width: 8%;
     height: 20px;
-    padding-right: 40px;
-    padding-left: 0;
+    /* padding-right: 40px;
+    padding-left: 0; */
+    padding: 5px 40px 0px 0px;
+    margin-bottom: 0;
 }
 
 .no_underline{
