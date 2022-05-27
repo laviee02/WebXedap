@@ -96,10 +96,30 @@ html {
 }
 
 .text_middle_header {
-    bottom: 0;
-    padding: 0 16px;
+    margin-bottom: 0;
     text-align: center;
     width: auto;
+
+}
+
+.style_mid_text1{
+    font-size: 64px;
+    /* color: white; */
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    margin-top: 430px;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.style_mid_text2{
+    font-size: 64px;
+    /* color: white; */
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* ------Footer------ */
