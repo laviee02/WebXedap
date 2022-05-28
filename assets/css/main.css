@@ -2,7 +2,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-    /* font-family: TT Norms Pro,tt_norms_pro,sans-serif; */
     font-family: "TT Norms Pro", "tt_norms_pro", sans-serif;
     line-height: 1;
     scroll-behavior: smooth;
@@ -47,18 +46,35 @@ html {
 } */
 
 #navbar {
-    width: 100%;
+    width: 1519px;
     height: 49px;
     background-color: white;
     color: black;
     display: flex;
     position: fixed;
-    /* position: block; */
-    /* Set the navbar to fixed position */
     top: 0;
     transition: top 0.3s;
 }
 
+/* Animation Underline */
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .4s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
 
 .space_header {
     width: 100%;
@@ -69,6 +85,9 @@ html {
     display: flex;
 }
 
+.head_link{
+    padding-left: 70px;
+}
 .justify-content-between {
     justify-content: space-between !important;
 }
@@ -91,9 +110,12 @@ html {
     background-repeat: no-repeat;
 }
 
-.no_margin_padding {
+.logo_possition {
+    margin-top: 9px;
+}
+
+.no_margin{
     margin: 0;
-    padding: 0;
 }
 
 .center_text {
@@ -102,6 +124,7 @@ html {
     font-weight: 700;
     line-height: 1;
     transition: all 1s cubic-bezier(.19, .91, .36, .99);
+    /* transition: width .4s; */
 }
 
 .text_possition {
@@ -125,16 +148,38 @@ html {
 }
 
 .text_middle_header {
-    /* margin-bottom: 0; */
     text-align: center;
     width: auto;
+    height: 190px;
     margin: auto;
-    padding-bottom: 110px;
+    padding-bottom: 75px;
+    padding-top: 0;
 }
+
+.button_header {
+    text-decoration: none;
+    /* margin: auto; */
+    width: 163px;
+    height: 27px;
+    padding: 5px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button_header:hover {
+    background-color: white;
+    color: black;
+    transition: all 1s cubic-bezier(.19, .91, .36, .99);
+
+}
+
 
 .style_mid_text1 {
     font-size: 64px;
-    /* color: white; */
     font-weight: 700;
     -webkit-text-stroke: 1px #fff;
     color: transparent;
