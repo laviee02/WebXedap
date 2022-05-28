@@ -34,6 +34,7 @@ html {
     background-color: white;
     color: black;
     display: flex;
+    /* position: fixed; */
 }
 
 .flex {
@@ -102,7 +103,7 @@ html {
 
 }
 
-.style_mid_text1{
+.style_mid_text1 {
     font-size: 64px;
     /* color: white; */
     font-weight: 700;
@@ -112,7 +113,8 @@ html {
     margin-bottom: 0;
     font-family: 'Raleway', sans-serif;
 }
-.style_mid_text2{
+
+.style_mid_text2 {
     font-size: 64px;
     /* color: white; */
     font-weight: 700;
