@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
@@ -16,19 +17,31 @@
         <!-- Container -->
         <div class="container__header">
             <!-- Navbar header -->
-            <div class="navbar justify-content-between">
+            <div id="navbar" class=" justify-content-between">
                 <!-- Logo -->
-                <ul class="logo bg-img"></ul>
-                <ul class="flex no_margin_padding justify-content-between">
-                    <li class="text-uppercase center_text text_possition">
-                        <a class="no_underline" href="">bikes</a></li>
-                    <li class="text-uppercase center_text text_possition">
-                        <a class="no_underline" href="">accessories</a></li>
-                    <li class="text-uppercase center_text text_possition">
-                        <a class="no_underline" href="">about us</a></li>
-                    <li class="text-uppercase center_text text_possition">
-                        <a class="no_underline" href="">support</a></li>
+                <ul class="logo_possition">
+                    <a href="/index.html"><img src="/assets/img/logo.png" alt=""></a>
                 </ul>
+                <!-- Mid Link Banner -->
+                <ul class="head_link flex no_margin justify-content-between">
+                    <!-- Link 1 -->
+                    <li class="text-uppercase center_text text_possition">
+                        <a class="no_underline cool-link" href="">bikes</a>
+                    </li>
+                    <!-- Link 2 -->
+                    <li class="text-uppercase center_text text_possition">
+                        <a class="no_underline cool-link" href="">accessories</a>
+                    </li>
+                    <!-- Link 3 -->
+                    <li class="text-uppercase center_text text_possition">
+                        <a class="no_underline cool-link" href="">about us</a>
+                    </li>
+                    <!-- Link 4 -->
+                    <li class="text-uppercase center_text text_possition">
+                        <a class="no_underline cool-link" href="">support</a>
+                    </li>
+                </ul>
+                <!-- Social -->
                 <ul class="flex text-uppercase justify-content-between social">
                     <li><i class="fa-brands fa-facebook-f"></i></li>
                     <li><i class="fa-brands fa-instagram"></i></li>
@@ -36,10 +49,27 @@
                     <li><i class="fa-brands fa-google"></i></li>
                 </ul>
             </div>
+            <!-- End navbar -->
+            <div class="space_header">
+
+            </div>
+            <!-- Text Middle -->
+            <div class="text_middle_header">
+                <p class="text-uppercase style_mid_text1">
+                    make it yours
+                </p>
+                <p class="text-uppercase style_mid_text2">
+                    make it your way
+                </p>
+                <div style="margin-top: 20px;">
+                    <a href="" class="button_header">MYWAY CONFIGURATOR</a>
+                </div>
+            </div>
+            <!-- Button mid header -->
         </div>
     </div>
     <!-- Content -->
-    <div>
+    <div class="content">
 
     </div>
     <!-- Footer -->
@@ -48,89 +78,102 @@
             <div class="boxcenter1">
                 <div class="boxfooter1">
                     <h3 class="footer_heading">BIKES</h1>
-                    <ul class="footer_list">
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">ROAD</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">GRAVEL</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">E-BIKE</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">URBAN</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">MYWAY</a>
-                        </li>
-                    </ul>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">ROAD</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">GRAVEL</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">E-BIKE</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">URBAN</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">MYWAY</a>
+                            </li>
+                        </ul>
                 </div>
                 <div class="boxfooter2">
                     <h3 class="footer_heading">ACCESSORIES</h1>
-                    <ul class="footer_list">
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">ROAD</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">GRAVEL</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">E-BIKE</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">URBAN</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">MYWAY</a>
-                        </li>
-                    </ul>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">ROAD</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">GRAVEL</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">E-BIKE</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">URBAN</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">MYWAY</a>
+                            </li>
+                        </ul>
                 </div>
                 <div class="boxfooter3">
                     <h3 class="footer_heading">ABOUT US</h1>
-                    <ul class="footer_list">
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">HISTORY</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">STORE LOCATION</a>
-                        </li>
-                        <li class="footer_item">
-                            <a href="#" class="footer_item_link">CONTACTS</a>
-                        </li>
-                    </ul>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">HISTORY</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">STORE LOCATION</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="#" class="footer_item_link">CONTACTS</a>
+                            </li>
+                        </ul>
                 </div>
                 <div class="boxfooter4">
-                    <img src="assets/img/pinarello_logo0.jpg">
-                    <h3 class="footer_heading"></h1>
-                    <ul class="footer_list">
-                        <li class="footer_item_icon">
-                            <a href="#" class="footer_item_link">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="#" class="footer_item_link">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="#" class="footer_item_link">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                            <a href="#" class="footer_item_link">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <p style="color:#fff; font-size: 13px; font-weight: bold;">© 2021 - CICLI PINARELLO SRL
-                    <p style="color:#fff; font-size: 13px;">Headquarter: Viale della Repubblica, 12 <br>
-                       31020 Villorba (TV) - C.F. and VAT<br>
-                       05994100963 <br>
-                       Privacy Policy | Cookies Policy</p>
-                    </p>
+                    <img src="assets/img/pinarello_logo.jpg">
+                    <h3 class="footer_heading">
+                        </h1>
+                        <ul class="footer_list">
+                            <li class="footer_item_icon">
+                                <a href="#" class="footer_item_link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="#" class="footer_item_link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="#" class="footer_item_link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="#" class="footer_item_link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p style="color:#fff; font-size: 13px; font-weight: bold;">© 2021 - CICLI PINARELLO SRL
+                        <p style="color:#fff; font-size: 13px;">Headquarter: Viale della Repubblica, 12 <br>
+                            31020 Villorba (TV) - C.F. and VAT<br>
+                            05994100963 <br>
+                            Privacy Policy | Cookies Policy</p>
+                        </p>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
     </footer>
     <!-- End Footer -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 
 </html>
