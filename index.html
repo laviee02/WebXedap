@@ -17,7 +17,7 @@
         <!-- Container -->
         <div class="container__header">
             <!-- Navbar header -->
-            <div class="navbar justify-content-between">
+            <div id="navbar" class=" justify-content-between">
                 <!-- Logo -->
                 <ul class="logo bg-img"></ul>
                 <!-- Mid Link Banner -->
@@ -48,6 +48,9 @@
                 </ul>
             </div>
             <!-- End navbar -->
+            <div class="space_header">
+
+            </div>
             <!-- Text Middle -->
             <div class="text_middle_header">
                 <p class="text-uppercase style_mid_text1">
@@ -57,10 +60,11 @@
                     make it your way
                 </p>
             </div>
+            <button></button>
         </div>
     </div>
     <!-- Content -->
-    <div>
+    <div class="content">
 
     </div>
     <!-- Footer -->
@@ -153,6 +157,18 @@
         </div>
     </footer>
     <!-- End Footer -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 
 </html>
