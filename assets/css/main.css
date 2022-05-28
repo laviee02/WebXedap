@@ -21,7 +21,7 @@ html {
     height: 100%;
     background-color: bisque;
     margin: auto;
-    background-image: url(/assets/img/img__banner.png);
+    background-image: url(./assets/img/img__banner.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
