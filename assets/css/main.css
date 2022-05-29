@@ -1,3 +1,5 @@
+
+
 body,
 html {
     margin: 0;
@@ -21,7 +23,7 @@ html {
     height: 100%;
     background-color: bisque;
     margin: auto;
-    background-image: url(./assets/img/img__banner.png);
+    background-image: url(../img/img__banner.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -75,6 +77,27 @@ html {
 .cool-link:hover::after {
     width: 100%;
 }
+
+/* Cool link 2 */
+.cool-link2 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.cool-link2::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: width .4s;
+}
+
+.cool-link2:hover::after {
+    width: 100%;
+}
+
 
 .space_header {
     width: 100%;
@@ -176,7 +199,6 @@ html {
     background-color: white;
     color: black;
     transition: all 1s cubic-bezier(.19, .91, .36, .99);
-
 }
 
 
@@ -212,12 +234,12 @@ footer {
 .row {
     float: left;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .boxcenter1 {
     width: 75%;
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .boxfooter1 {
@@ -231,13 +253,13 @@ footer {
 }
 
 .boxfooter3 {
-    width: 25%;
+    width: 30%;
     float: left;
 }
 
 .boxfooter4 {
 
-    width: 25%;
+    width: 20%;
     float: left;
 }
 
@@ -245,7 +267,7 @@ footer {
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .footer_list {
@@ -254,7 +276,7 @@ footer {
 }
 
 .footer_item {
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 .footer_item_link {
@@ -263,8 +285,54 @@ footer {
     color: #fff;
     padding: 5px 0;
     padding-right: 35px;
+    font-weight: 100;
 }
 
 .footer_item_icon {
     display: flex;
+}
+
+.container__footer{
+    width: 1519px;
+    height: 100%;
+    margin: auto;
+}
+
+.container1{
+    width: 100%;
+    height: 1800px;
+    background-color: aqua;
+}
+
+.container1_row{
+    width: 100%;
+    height: 1576px;
+    background-color: yellow;
+    float: left;
+    margin: 112px 0;
+}
+
+.container1_box{
+    width: 1251px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.container1_box_product{
+    width: 50%;
+    height: 782px;
+}
+
+.container1_box_product_img{
+    padding-top: 100%;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
 }
