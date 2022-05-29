@@ -34,19 +34,6 @@ html {
     /* align-content: stretch; */
 }
 
-.content {
-    width: 100%;
-    height: 1000px;
-}
-
-/* .navbar {
-    width: 100%;
-    height: 55px;
-    background-color: white;
-    color: black;
-    display: flex;
-} */
-
 #navbar {
     width: 1519px;
     height: 49px;
@@ -104,42 +91,41 @@ html {
     height: auto;
 }
 
-.boxfooter1{
-    width: 25%;
-    float: left;
+.flex {
+    display: flex;
 }
 
-.head_link{
+.head_link {
     padding-left: 70px;
 }
+
 .justify-content-between {
     justify-content: space-between !important;
 }
 
-.boxfooter3{
-    width: 25%;
-    float: left;
+.text-uppercase {
+    text-transform: uppercase !important;
+    list-style-type: none;
 }
 
 .logo {
-    background-image: url(/assets/img/logo.png);
+    background-image: url(./assets/img/logo.png);
     width: 100px;
     height: 40px;
     margin-top: 9px;
 }
 
-.footer_heading{
-    font-size: 14px;
-    text-transform: uppercase;   
-    color: #fff;
-    margin-bottom: 15px;
+.bg-img {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .logo_possition {
     margin-top: 9px;
 }
 
-.no_margin{
+.no_margin {
     margin: 0;
 }
 
@@ -201,7 +187,6 @@ html {
     transition: all 1s cubic-bezier(.19, .91, .36, .99);
 }
 
-
 .style_mid_text1 {
     font-size: 64px;
     font-weight: 700;
@@ -221,6 +206,92 @@ html {
     margin-top: 20px;
     margin-bottom: 0;
     font-family: 'Raleway', sans-serif;
+}
+
+/* ------ Content ------ */
+.content {
+    width: 100%;
+    height: 1800px;
+    margin-top: 50px;
+}
+
+.container__content {
+    width: 1300px;
+    height: 1550px;
+    margin: auto;
+    border: 1px solid black;
+    display: block;
+}
+
+.img1 {
+    background-image: url(../img/img_content1.jpg);
+    display: block;
+    overflow: hidden;
+}
+
+.img2 {
+    background-image: url(../img/img_content2.jpg);
+}
+
+.img3 {
+    background-image: url(../img/img_content3.jpg);
+}
+
+.img4 {
+    background-image: url(../img/img_content4.jpg);
+}
+
+.content__1__top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content__2__top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box__content {
+    width: 49%;
+    height: 98.5%;
+    margin: 0px 8px;
+    display: block;
+    overflow: hidden;
+}
+
+.box__content:hover {
+    transform: scale(1.03);
+    transition: all .5s ease-in-out;
+}
+
+.box1__cnt {
+    background-color: cornsilk;
+    display: block;
+    overflow: hidden;
+}
+
+.box2__cnt {
+    background-color: gainsboro;
+    display: block;
+    overflow: hidden;
+}
+
+.box3__cnt {
+    background-color: hotpink;
+    display: block;
+    overflow: hidden;
+}
+
+.box4__cnt {
+    background-color: mediumspringgreen;
+    display: block;
+    overflow: hidden;
 }
 
 /* ------Footer------ */
@@ -267,7 +338,7 @@ footer {
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 13px;
 }
 
 .footer_list {
@@ -276,7 +347,7 @@ footer {
 }
 
 .footer_item {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 
 .footer_item_link {
@@ -292,47 +363,8 @@ footer {
     display: flex;
 }
 
-.container__footer{
+.container_footer {
     width: 1519px;
-    height: 100%;
+    height: 83%;
     margin: auto;
-}
-
-.container1{
-    width: 100%;
-    height: 1800px;
-    background-color: aqua;
-}
-
-.container1_row{
-    width: 100%;
-    height: 1576px;
-    background-color: yellow;
-    float: left;
-    margin: 112px 0;
-}
-
-.container1_box{
-    width: 1251px;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blueviolet;
-    margin: 0 auto;
-}
-
-.justify-content-center{
-    justify-content: center;
-}
-
-.container1_box_product{
-    width: 50%;
-    height: 782px;
-}
-
-.container1_box_product_img{
-    padding-top: 100%;
-    background-size: cover;
-    background-position: 0%;
-    background-repeat: no-repeat;
 }
