@@ -12,8 +12,7 @@ html {
 .header {
     width: 100%;
     height: 745px;
-    background-color: lightcyan;
-
+    /* background-color: lightcyan; */
 }
 
 .container__header {
@@ -91,7 +90,6 @@ html {
     width: 100%;
 }
 
-
 .space_header {
     width: 100%;
     height: auto;
@@ -141,7 +139,6 @@ html {
     font-weight: 700;
     line-height: 1;
     transition: all 1s cubic-bezier(.19, .91, .36, .99);
-    /* transition: width .4s; */
 }
 
 .text_possition {
@@ -322,11 +319,70 @@ html {
     background-color: white;
     color: black;
 }
-.btn_content:hover .box__content:hover{
+
+.btn_content:hover .box__content:hover {
     transform: scale(1.04);
     transition: all .5s ease-in-out;
 }
-
+/* ________Content 2_______ */
+.content2{
+    /* background-color: #181818; */
+    width: 100%;
+    height: 240px;
+}
+.container__content2{
+    width: 1519px;
+    height: 100%;
+    margin: auto;
+    background-color: #181818;
+    display: flex;
+}
+.ct2_left{
+    width: 60%;
+    height: 100%;
+    color: white;
+    margin-left: 185px;
+    margin-top: 80px;
+}
+.text1_left{
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text2_left{
+    width: 60%;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-weight: 200;
+}
+.ct2_right{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.btn_content2{
+    text-decoration: none;
+    width: 40%;
+    height: 20px;
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 18px;
+    top: 95px;
+    left: 85px;
+}
+.btn_content2:hover{
+    color: black;
+    background-color: white;
+}
 
 /* ------Footer------ */
 
@@ -336,11 +392,13 @@ footer {
     background-color: #000;
     min-height: 150px;
 }
-.container__footer{
+
+.container__footer {
     width: 1519px;
     height: 80%;
     margin: auto;
 }
+
 .row {
     float: left;
     width: 100%;
@@ -406,4 +464,7 @@ footer {
     width: 1519px;
     height: 80%;
     margin: auto;
+}
+.logo_footer{
+    width: 220px;
 }
