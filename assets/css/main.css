@@ -1,5 +1,3 @@
-
-
 body,
 html {
     margin: 0;
@@ -227,7 +225,7 @@ html {
     width: 1300px;
     height: 1550px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -235,8 +233,6 @@ html {
 
 .img1 {
     background-image: url(../img/img_content1.jpg);
-    display: block;
-    overflow: hidden;
 }
 
 .img2 {
@@ -257,6 +253,7 @@ html {
     display: block;
     /* justify-content: space-between; */
     overflow: hidden;
+    position: relative;
 }
 
 .content__2__top {
@@ -265,6 +262,7 @@ html {
     display: block;
     /* justify-content: space-between; */
     overflow: hidden;
+    position: relative;
 }
 
 .content__3__top {
@@ -273,6 +271,7 @@ html {
     display: block;
     /* justify-content: space-between; */
     overflow: hidden;
+    position: relative;
 }
 
 .content__4__top {
@@ -281,13 +280,13 @@ html {
     display: block;
     /* justify-content: space-between; */
     overflow: hidden;
+    position: relative;
 }
 
 .box__content {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: hidden;
 }
 
 .box__content:hover {
@@ -295,14 +294,53 @@ html {
     transition: all .5s ease-in-out;
 }
 
+.box__content:hover .box__content {
+    transform: scale(1.04);
+    transition: all .5s ease-in-out;
+}
+
+.btn_content {
+    text-decoration: none;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    width: 32%;
+    height: 12px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    top: 65px;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    text-align: center;
+    transition: all .5s;
+}
+
+.btn_content:hover {
+    background-color: white;
+    color: black;
+}
+.btn_content:hover .box__content:hover{
+    transform: scale(1.04);
+    transition: all .5s ease-in-out;
+}
+
+
 /* ------Footer------ */
+
 footer {
     float: left;
     width: 100%;
     background-color: #000;
     min-height: 150px;
 }
-
+.container__footer{
+    width: 1519px;
+    height: 80%;
+    margin: auto;
+}
 .row {
     float: left;
     width: 100%;
