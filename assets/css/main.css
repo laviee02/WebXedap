@@ -18,7 +18,7 @@ html {
 .container__header {
     width: 1519px;
     height: 100%;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: auto;
     background-image: url(../img/img__banner.png);
     background-position: center;
@@ -34,13 +34,13 @@ html {
 .container__header_product {
     width: 1519px;
     height: 100%;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: auto;
 }
 
 #navbar {
     width: 1519px;
-    height: 49px;
+    height: 48px;
     background-color: white;
     color: black;
     display: flex;
@@ -48,6 +48,7 @@ html {
     top: 0;
     transition: top 0.3s;
     z-index: 1;
+    border: 1px solid gainsboro;
 }
 
 /* Animation Underline */
@@ -92,7 +93,7 @@ html {
 
 .space_header {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 .flex {
@@ -324,44 +325,51 @@ html {
     transform: scale(1.04);
     transition: all .5s ease-in-out;
 }
+
 /* ________Content 2_______ */
-.content2{
+.content2 {
     /* background-color: #181818; */
     width: 100%;
     height: 240px;
 }
-.container__content2{
+
+.container__content2 {
     width: 1519px;
     height: 100%;
     margin: auto;
     background-color: #181818;
     display: flex;
 }
-.ct2_left{
-    width: 60%;
-    height: 100%;
+
+.ct2_left {
+    /* width: 60%;
+    height: 100%; */
     color: white;
     margin-left: 185px;
     margin-top: 80px;
 }
-.text1_left{
+
+.text1_left {
     width: fit-content;
     font-size: 20px;
     font-weight: 700;
 }
-.text2_left{
+
+.text2_left {
     width: 60%;
     font-size: 16px;
     margin-top: 20px;
     line-height: 23px;
     font-weight: 200;
 }
-.ct2_right{
+
+.ct2_right {
     width: 40%;
     height: 100%;
     position: relative;
 }
-.btn_content2{
+
+.btn_content2 {
     text-decoration: none;
     width: 40%;
     height: 20px;
@@ -379,9 +387,18 @@ html {
     top: 95px;
     left: 85px;
 }
-.btn_content2:hover{
+
+.btn_content2:hover {
     color: black;
     background-color: white;
+}
+
+.container__content__signup2 {
+    width: 1519px;
+    height: 100%;
+    margin: auto;
+    background-color: #181818;
+    display: flex;
 }
 
 /* ------Footer------ */
@@ -465,6 +482,26 @@ footer {
     height: 80%;
     margin: auto;
 }
-.logo_footer{
+
+.logo_footer {
     width: 220px;
+}
+
+/* End Footer */
+/* Sign up */
+.content1__signup {
+    width: 1519px;
+    height: 1000px;
+}
+
+.container__content__sinup {
+    width: 1519px;
+    height: 100%;
+    margin: auto;
+}
+
+.text_signup {
+    width: 80%;
+    height: 50%;
+    background-color: greenyellow;
 }
