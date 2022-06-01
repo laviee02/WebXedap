@@ -1,0 +1,29 @@
+body{
+    font-size: 14px;
+    color: #111;
+    line-height: 1.15;
+}
+
+#container_products{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.headline{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.headline_small{
+    color: #181818;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.headline_big{
+    font-size: 82px;
+    line-height: 75px;
+    padding: 10px 20px;
+    margin-top: 0;
+    display: block;
+}

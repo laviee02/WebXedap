@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /* body{
+=======
+
+body{
+>>>>>>> 345070b8731161b80b566f3ab1980b12334e2620
     font-size: 14px;
     color: #111;
     line-height: 1.15;
@@ -7,6 +12,25 @@
 #container_products{
     max-width: 1360px;
     margin: 0 auto;
+}
+
+.headline{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.headline_small{
+    color: #181818;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.headline_big{
+    font-size: 82px;
+    line-height: 75px;
+    padding: 10px 20px;
+    margin-top: 0;
+    display: block;
 }
 
 ul.products {
@@ -77,4 +101,23 @@ ul.products li .product-info .product-price{
     height: 100%;
     /* background-color: bisque; */
     margin: auto;
+}
+/* :)) */
+.cool-link3 {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link3::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.6px;
+    background: #000;
+    transition: width .4s;
+}
+
+.cool-link3:hover::after {
+    width: 100%;
 }
