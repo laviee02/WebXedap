@@ -1,10 +1,8 @@
-
-
-body{
+/* body{
     font-size: 14px;
     color: #111;
     line-height: 1.15;
-}
+} */
 
 #container_products{
     max-width: 1360px;
@@ -61,13 +59,13 @@ ul.products li .product-info .product-name{
     line-height: 24px;
 }
 
-ul.products li:hover .product-info .product-name{
+/* ul.products li:hover .product-info .product-name{
 
-}
+} */
 
 ul.products li .product-info .product-price{
     padding: 6px 0;
-    font-weight: 600;
+    font-weight: 500;
 }
 .header__product {
     width: 100%;

@@ -62,7 +62,7 @@ html {
     content: '';
     display: block;
     width: 0;
-    height: 1px;
+    height: 2px;
     background: #000;
     transition: width .4s;
 }
@@ -488,22 +488,3 @@ footer {
 }
 
 /* End Footer */
-/* Sign up */
-.content1__signup {
-    width: 1519px;
-    height: 1000px;
-}
-
-.container__content__sinup {
-    width: 1519px;
-    height: 100%;
-    margin: auto;
-    background-color: antiquewhite;
-}
-
-.text_signup {
-    width: 80%;
-    height: 50%;
-    background-color: greenyellow;
-    margin: auto;
-}
