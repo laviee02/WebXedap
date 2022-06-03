@@ -148,13 +148,22 @@ html {
     /* border: 1px solid black; */
 }
 
-.social {
-    width: 8%;
+.login__cart {
+    width: 4%;
     height: 20px;
-    /* padding-right: 40px;
-    padding-left: 0; */
-    padding: 1px 40px 0px 0px;
+    padding: 1px 40px 0px 25px;
     margin-bottom: 0;
+}
+
+.style__ {
+    text-decoration: none;
+    color: black;
+}
+
+.style__:hover {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    transition: all .3s ease-in-out;
 }
 
 .no_underline {
