@@ -62,7 +62,7 @@ html {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #000;
     transition: width .4s;
 }
@@ -82,7 +82,7 @@ html {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: rgb(255, 255, 255);
     transition: width .4s;
 }
@@ -291,11 +291,11 @@ html {
     transform: scale(1.04);
     transition: all .5s ease-in-out;
 }
-
+/* 
 .box__content:hover .box__content {
     transform: scale(1.04);
     transition: all .5s ease-in-out;
-}
+} */
 
 .btn_content {
     text-decoration: none;
