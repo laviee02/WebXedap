@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/configurator.css">
     <link rel="stylesheet" href="./assets/css/cart.css">
 </head>
+
 <body>
     <!-- Header -->
     <div class="header__product">
@@ -23,7 +25,7 @@
             <div id="navbar" class=" justify-content-between">
                 <!-- Logo -->
                 <ul class="logo_possition">
-                    <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+                    <a title="Home" href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
                 </ul>
                 <!-- Mid Link Banner -->
                 <ul class="head_link flex no_margin justify-content-between">
@@ -46,16 +48,87 @@
                 </ul>
                 <!-- Log in__Cart -->
                 <ul class="flex text-uppercase justify-content-between login__cart">
-                    <li><a class="style__" href="./log_in.html"><i class="fa-solid fa-user"></i></a></li>
-                    <li><a class="style__" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a class="style__" href="./log_in.html"><i title="Log in" class="fa-solid fa-user"></i></a></li>
+                    <li><a class="style__" href="./cart.html"><i title="Cart" class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
                 </ul>
             </div>
             <!-- End navbar -->
         </div>
     </div>
     <!-- Content -->
-    <div>
-        
+    <div class="content_cart">
+        <div class="container_cart">
+            <div class="txt_top_cart">
+                SHOPPING CART
+            </div>
+            <div class="line1">
+                <div class="prd_it">ITEM</div>
+                <div class="prd_prc">PRICE</div>
+                <div class="prd_qy">QUANTITY</div>
+                <div class="prd_tl">TOTAL</div>
+            </div>
+            <div class="prd">
+                <img class="img_" src="./assets/img/prince_ultegra_11s.png" alt="">
+                <div class="prd_name">
+                    PRINCE ULTEGRA 11S
+                    HANDLEBAR: DROP BAR
+                </div>
+                <div class="prd_price">
+                    $1,600.00
+                </div>
+                <div class="prd_qtt">
+                    1
+                </div>
+                <div class="prd_total">
+                    $1,600.00
+                </div>
+            </div>
+            <div class="prd">
+                <img class="img_" src="./assets/img/dura_ace_i2.png" alt="">
+                <div class="prd_name">
+                    DOGMA F DURA ACE DI2
+                    HANDLEBAR: DROP BAR
+                </div>
+                <div class="prd_price">
+                    $1,000.00
+                </div>
+                <div class="prd_qtt">
+                    1
+                </div>
+                <div class="prd_total">
+                    $1,000.00
+                </div>
+            </div>
+            <div class="prd">
+                <img style="width: 219px;" class="img_" src="./assets/img/ultragrip_EVO.jpg" alt="">
+                <div class="prd_name">
+                    Ultragrip EVO
+                </div>
+                <div class="prd_price">
+                    $29.00
+                </div>
+                <div class="prd_qtt">
+                    1
+                </div>
+                <div class="prd_total">
+                    $29.00
+                </div>
+            </div>
+            <div class="total">
+                SUBTOTAL $2,629.00
+                <br>
+                TAX $0.00
+                <br>
+                <span class="txt_total">
+                    TOTAL $2,629.00
+                </span>
+            </div>
+            <div class="btn_total">
+                <a class="btn_ctn text-uppercase" href="./product.html">Continue shopping</a>
+                <a class="btn_pay" href="">PROCEED TO CHECKOUT</a>
+            </div>
+        </div>
     </div>
     <!-- SUBSCRIBE -->
     <div class="content2">
