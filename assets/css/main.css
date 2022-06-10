@@ -5,6 +5,7 @@ html {
     font-family: "TT Norms Pro", "tt_norms_pro", sans-serif;
     line-height: 1;
     scroll-behavior: smooth;
+    transition: all .5s cubic-bezier(.19,.91,.36,.99);
 }
 
 /*________HEADER________*/
@@ -48,7 +49,7 @@ html {
     top: 0;
     transition: top 0.3s;
     z-index: 1;
-    border: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
 /* Animation Underline */
