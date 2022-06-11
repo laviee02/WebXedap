@@ -80,6 +80,8 @@ ul.products li img {
 
 ul.products li .product-info {
     padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul.products li .product-info .product-name{
@@ -95,6 +97,7 @@ ul.products li .product-info .product-name{
 } */
 
 ul.products li .product-info .product-price{
+    width: 100%;
     padding: 6px 0;
     font-weight: 500;
 }
