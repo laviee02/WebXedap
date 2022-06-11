@@ -1,8 +1,15 @@
-.content1__signup {
+
+.form_contact{
+    width: 965px;
+    margin: 120px auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.content1__contact {
     width: 1519px;
-    height: 800px;
     /* background-color: aquamarine; */
-    margin: auto;
+    margin:auto;
 }
 
 .container__content__signup {
@@ -43,36 +50,28 @@
     border-right: 1px solid black;
 }
 
-.row1 {
-    width: 50%;
-    height: 100%;
-    margin: auto;
-}
-
-.input_form {
-    margin: 10px auto;
+.input_form1 {
+    width: 100%;
+    height: 56px!important;
     border: 1px solid black;
     padding: 12px 15px;
+    display: block;
+    box-sizing: border-box;
 }
 
-.position_input {
-    width: 94%;
-    height: 100%;
-}
-
-.text__ {
+.text_cb {
     line-height: 20px;
     font-size: 16px;
     margin-top: -1px;
-    margin-left: 2px;
+    margin-left: 10px;
     font-weight: 300;
     color: dimgray;
 }
 
-.btn_signup {
+.btn_contact {
     text-decoration: none;
-    width: 75%;
-    height: 12px;
+    width: 100%;
+    height: 50px;
     padding: 10px;
     background-color: transparent;
     color: dimgrey;
@@ -80,13 +79,49 @@
     top: 65px;
     font-size: 13px;
     font-weight: 600;
-    display: block;
+    display: inline-block;
     text-align: center;
     transition: all .4s;
-    margin: 28px auto;
+    margin: 30px auto;
 }
 
 .btn_signup:hover {
     background-color: black;
     color: white;
+}
+
+.box_contact{
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_request{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.text_col{
+    font-size: 14.5px;
+    margin-bottom: 8px;
+}
+
+.contact_col1{
+    margin-top: 40px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+.contact_col2{
+    margin-top: 40px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+
+#contact_messages{
+    width: 100%;
 }
