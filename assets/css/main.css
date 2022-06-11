@@ -416,13 +416,15 @@ html {
 footer {
     float: left;
     width: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     min-height: 150px;
 }
 
 .container__footer {
     width: 1519px;
-    height: 80%;
+    padding-top: 1px;
+    height: 100%;
+    background-color: #000;
     margin: auto;
 }
 
