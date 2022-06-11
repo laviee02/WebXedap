@@ -14,7 +14,7 @@
     margin-top: 30px;
     font-size: 35px;
     font-weight: 700;
-    padding-left: 13px;
+    /* padding-left: 13px; */
 }
 
 .line1 {
@@ -103,7 +103,7 @@
 
 .txt_total {
     font-size: 24px;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .btn_total {
