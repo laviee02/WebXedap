@@ -12,7 +12,7 @@
     margin:auto;
 }
 
-.container__content__signup {
+.container__content__contact{
     width: 90%;
     height: 100%;
     margin: 65px auto;
@@ -20,7 +20,7 @@
     /* position: relative; */
 }
 
-.text_signup {
+.text_contact {
     width: 100%;
     height: 16%;
     /* background-color: greenyellow; */
@@ -41,14 +41,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.form_signup {
-    width: 80%;
-    height: 50%;
-    /* background-color: burlywood; */
-    margin: 35px auto;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
 
 .input_form1 {
     width: 100%;
@@ -71,8 +63,8 @@
 .btn_contact {
     text-decoration: none;
     width: 100%;
-    height: 50px;
-    padding: 10px;
+    height: 14px;
+    padding: 27px;
     background-color: transparent;
     color: dimgrey;
     border: 1px solid dimgrey;
@@ -82,16 +74,16 @@
     display: inline-block;
     text-align: center;
     transition: all .4s;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
-.btn_signup:hover {
+.btn_contact:hover {
     background-color: black;
     color: white;
 }
 
 .box_contact{
-    margin: 40px auto;
+    margin: 40px auto 100px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -124,4 +116,11 @@
 
 #contact_messages{
     width: 100%;
+}
+
+.text_bot{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: dimgrey;
 }
