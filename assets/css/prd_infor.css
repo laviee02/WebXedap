@@ -1,6 +1,6 @@
 .content_prdif {
     width: 100%;
-    height: 3985px;
+    height: 5465px;
 }
 
 .container_prdif {
@@ -123,7 +123,7 @@
     margin: auto;
     padding-top: 50px;
     width: 1519px;
-    height: 2200px;
+    height: 2140px;
 }
 
 .sa2 {
@@ -176,4 +176,35 @@
 .btn_add:hover {
     color: white;
     background-color: black;
+}
+.container_prdif1{
+    width: 1368px;
+    height: 2000px;
+    margin: auto;
+}
+.txt_cpn {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.txt__cpn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 13px 0px;
+    margin: 0 auto;
+}
+.tb{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    color: #575757;
+}
+.td1{
+    padding: 3px 0px;
+    width: 330px;
+    font-weight: 700;
+    line-height: 25px;
 }
